@@ -1,8 +1,8 @@
 cask "pixelmend" do
   version "1.1.0-alpha.4"
-  sha256 "9cb17c77f78c1c10d98ab1f610edd0bce66b9f1dd01d1feac5f5778a0915ad5e"
+  sha256 "65d5987ec1619cb0bc1630a5a9b87aa1eacaceff5d37ef5538a70d1c567fc9fc"
 
-  url "https://github.com/Mahmutakin99/pixelmend/releases/download/v#{version}/PixelMend-#{version}-arm64.zip"
+  url "https://github.com/Mahmutakin99/pixelmend/releases/download/v#{version}/PixelMend-#{version}-arm64-signed.zip"
   name "PixelMend"
   desc "Local photo repair and image generation"
   homepage "https://github.com/Mahmutakin99/pixelmend"
@@ -17,10 +17,6 @@ cask "pixelmend" do
   app "PixelMend.app"
 
   caveats <<~EOS
-    This alpha is locally ad-hoc signed, not Developer ID signed or notarized.
-    macOS may require explicit approval on first launch:
-      https://support.apple.com/en-us/102445
-
     Generative features require at least 16 GB RAM and an accepted device/profile.
     Models are downloaded separately in PixelMend Settings.
     Low available memory can increase processing time without reducing quality.
