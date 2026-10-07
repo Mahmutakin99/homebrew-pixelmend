@@ -1,6 +1,6 @@
 cask "pixelmend" do
-  version "1.1.0-alpha.4"
-  sha256 "65d5987ec1619cb0bc1630a5a9b87aa1eacaceff5d37ef5538a70d1c567fc9fc"
+  version "1.1.0-alpha.5"
+  sha256 "67aa992327a3d73c5e37339219071a7ce03c257b88ab84c36353a4eea050efe1"
 
   url "https://github.com/Mahmutakin99/pixelmend/releases/download/v#{version}/PixelMend-#{version}-arm64-signed.zip"
   name "PixelMend"
