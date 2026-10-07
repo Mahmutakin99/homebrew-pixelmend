@@ -25,7 +25,7 @@ require user approval. Follow [Apple's instructions](https://support.apple.com/e
 only for software you trust. Homebrew does not replace Apple notarization.
 
 [Source and releases](https://github.com/Mahmutakin99/pixelmend)
-· [Alpha4 release notes](https://github.com/Mahmutakin99/pixelmend/blob/feat/mac-local-ai/docs/releases/1.1.0-alpha.4.md)
+· [Alpha4 release notes](https://github.com/Mahmutakin99/pixelmend/blob/v1.1.0-alpha.4/RELEASE_NOTES.md)
 
 This tap installs the application without removing saved models or projects.
 Release definitions are updated manually after package verification.
